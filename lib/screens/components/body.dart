@@ -52,8 +52,14 @@ class _BodyState extends State<Body> {
                   Spacer(),
                   TextButton(
                     style: TextButton.styleFrom(
+                      primary: Colors.white,
+                      backgroundColor: kPrimaryColor,
+                      elevation: 15,
+                      padding: EdgeInsets.only(
+                          left: 60, right: 60, top: 15, bottom: 15),
+                      minimumSize: const Size(100, 50),
                       textStyle: const TextStyle(
-                        fontSize: 26,
+                        fontSize: 16,
                       ),
                     ),
                     onPressed: () {},
